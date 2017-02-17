@@ -1,0 +1,230 @@
+# Call Recording Statutes
+# ------------------------------
+#
+# "single_party_consent" - Allows recording if one of the parties to the
+# conversation consents to the recording.
+#
+# "all_party_consent" - Allows recording only if all parties consent. Sometimes
+# notification is sufficient for consent, but it is better to be safe than
+# sorry.
+#
+# http://en.wikipedia.org/wiki/Telephone_recording_laws#All-party_consent_states
+"Alabama":
+  rule: "single_party_consent"
+  codes: [205, 251, 256, 334, 938]
+
+"Alaska":
+  rule: "single_party_consent"
+  codes: [907]
+
+"American Samoa":
+  rule: "single_party_consent"
+  codes: [684]
+
+"Arizona":
+  rule: "single_party_consent"
+  codes: [480, 520, 602, 623, 928]
+
+"Arkansas":
+  rule: "single_party_consent"
+  codes: [479, 501, 870]
+
+"California":
+  rule: "all_party_consent"
+  codes: [209, 213, 310, 323, 408, 415, 424, 442, 510, 530, 559, 562, 619, 626, 650, 657, 661, 707, 714, 747, 760, 805, 818, 831, 858, 909, 916, 925, 949, 951]
+
+"Colorado":
+  rule: "single_party_consent"
+  codes: [303, 719, 720, 970]
+
+"Connecticut":
+  rule: "all_party_consent"
+  codes: [203, 475, 860]
+
+"Delaware":
+  rule: "single_party_consent"
+  codes: [302]
+
+"Florida":
+  rule: "all_party_consent"
+  codes: [239, 305, 321, 352, 386, 407, 561, 727, 754, 772, 786, 813, 850, 863, 904, 941, 954]
+
+"Georgia":
+  rule: "single_party_consent"
+  codes: [229, 404, 470, 478, 678, 706, 762, 770, 912]
+
+"Guam":
+  rule: "single_party_consent"
+  codes: [671]
+
+"Hawaii":
+  rule: "all_party_consent"
+  codes: [808]
+
+"Idaho":
+  rule: "single_party_consent"
+  codes: [208]
+
+"Illinois":
+  rule: "all_party_consent"
+  codes: [217, 224, 309, 312, 331, 618, 630, 708, 773, 779, 815, 847, 872]
+
+"Indiana":
+  rule: "single_party_consent"
+  codes: [219, 260, 317, 574, 765, 812]
+
+"Iowa":
+  rule: "single_party_consent"
+  codes: [319, 515, 563, 641, 712]
+
+"Kansas":
+  rule: "single_party_consent"
+  codes: [316, 620, 785, 913]
+
+"Kentucky":
+  rule: "single_party_consent"
+  codes: [270, 502, 606, 859]
+
+"Louisiana":
+  rule: "single_party_consent"
+  codes: [225, 318, 337, 504, 985]
+
+"Maine":
+  rule: "single_party_consent"
+  codes: [207]
+
+"Maryland":
+  rule: "all_party_consent"
+  codes: [240, 301, 410, 443]
+
+"Massachusetts":
+  rule: "all_party_consent"
+  codes: [339, 351, 413, 508, 617, 774, 781,774 857, 978]
+
+"Michigan":
+  rule: "single_party_consent"
+  codes: [231, 248, 269, 313, 517, 586, 616, 734, 810, 906, 9417, 989]
+
+"Minnesota":
+  rule: "single_party_consent"
+  codes: [218, 320, 507, 612, 651, 763, 952]
+
+"Mississippi":
+  rule: "single_party_consent"
+  codes: [228, 601, 662, 769]
+
+"Missouri":
+  rule: "single_party_consent"
+  codes: [314, 417, 573, 636, 660, 816]
+
+"Montana":
+  rule: "all_party_consent"
+  codes: [406]
+
+"Nebraska":
+  rule: "single_party_consent"
+  codes: [308, 402]
+
+"Nevada":
+  rule: "all_party_consent"
+  codes: [702, 775]
+
+"New Hampshire":
+  rule: "all_party_consent"
+  codes: [603]
+
+"New Jersey":
+  rule: "single_party_consent"
+  codes: [201, 551, 609, 732, 848, 856, 862, 908, 973]
+
+"New Mexico":
+  rule: "single_party_consent"
+  codes: [505, 575]
+
+"New York":
+  rule: "single_party_consent"
+  codes: [212, 315, 347, 516, 518, 585, 607, 631, 646, 716, 718, 845, 914, 917, 929]
+
+"North Carolina":
+  rule: "single_party_consent"
+  codes: [252, 336, 704, 828, 910, 919, 980]
+
+"North Dakota":
+  rule: "single_party_consent"
+  codes: [701]
+
+"Ohio":
+  rule: "single_party_consent"
+  codes: [216, 234, 330, 419, 440, 513, 567, 614, 740, 937]
+
+"Oklahoma":
+  rule: "single_party_consent"
+  codes: [405, 539, 580, 918]
+
+"Oregon":
+  rule: "single_party_consent"
+  codes: [458, 503, 541, 971]
+
+"Pennsylvania":
+  rule: "all_party_consent"
+  codes: [215, 267, 412, 484, 570, 610, 717, 724, 814, 878]
+
+"Puerto Rico":
+  rule: "single_party_consent"
+  codes: [787, 939]
+
+"Rhode Island":
+  rule: "single_party_consent"
+  codes: [401]
+
+"South Carolina":
+  rule: "single_party_consent"
+  codes: [803, 843, 864]
+
+"South Dakota":
+  rule: "single_party_consent"
+  codes: [605]
+
+"Tennessee":
+  rule: "single_party_consent"
+  codes: [423, 615, 731, 865, 901, 931]
+
+"Texas":
+  rule: "single_party_consent"
+  codes: [210, 214, 254, 281, 325, 361, 409, 430, 432, 469, 512, 682, 713, 806, 817, 830, 832, 903, 915, 936, 940, 956, 972, 979]
+
+"Utah":
+  rule: "single_party_consent"
+  codes: [385, 435, 801]
+
+"Vermont":
+  rule: "single_party_consent"
+  codes: [802]
+
+"Virgin Islands":
+  rule: "single_party_consent"
+  codes: [340]
+
+"Virginia":
+  rule: "single_party_consent"
+  codes: [276, 434, 540, 571, 703, 757, 804]
+
+"Washington":
+  rule: "all_party_consent"
+  codes: [206, 253, 360, 425, 509]
+
+"Washington, DC":
+  rule: "all_party_consent"
+  codes: [202]
+
+"West Virginia":
+  rule: "single_party_consent"
+  codes: [304, 681]
+
+"Wisconsin":
+  rule: "single_party_consent"
+  codes: [262, 414, 608, 715, 920]
+
+"Wyoming":
+  rule: "single_party_consent"
+  codes: [307]
