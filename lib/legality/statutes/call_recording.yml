@@ -211,7 +211,7 @@
 
 "Washington":
   rule: "all_party_consent"
-  codes: [206, 253, 360, 425, 509]
+  codes: [206, 253, 360, 425, 509, 564]
 
 "Washington, DC":
   rule: "all_party_consent"
