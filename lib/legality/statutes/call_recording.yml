@@ -166,7 +166,7 @@
   rule: "all_party_consent"
   codes: [206, 253, 360, 425, 509, 564]
 "Washington, DC":
-  rule: "all_party_consent"
+  rule: "single_party_consent"
   codes: [202]
 "West Virginia":
   rule: "single_party_consent"
